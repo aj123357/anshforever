@@ -10,7 +10,7 @@ const Couple = () => {
     return(
         <div id="couple" className="about-wrap">
             <div className="couple-area section-padding pb-70">
-                <Sectiontitle section={'Happy Cuple'}/>
+                <Sectiontitle section={'Happy Couple'}/>
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">
@@ -21,7 +21,8 @@ const Couple = () => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>ANKUSH JINDAL</h3>
+                                        <h3>SHILPI DHIMAN</h3>
+                                          
                                             <p></p>
                                         </div>
                                     </div>
@@ -39,7 +40,7 @@ const Couple = () => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>SHILPI DHIMAN</h3>
+                                        <h3>ANKUSH JINDAL</h3>
                                             <p></p>
                                         </div>
                                     </div>

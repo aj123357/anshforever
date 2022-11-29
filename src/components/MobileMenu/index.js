@@ -37,7 +37,6 @@ export default class MobileMenu extends Component {
                     <ul className="responsivemenu">
                         <li><Link onClick={this.setIsOpen} to='/'>Home</Link></li>
                         <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
-                        <li><AnchorLink href='#story'>Story</AnchorLink></li>
                         <li><AnchorLink href='#people'>People</AnchorLink></li>
                         <li><AnchorLink href='#event'>Events</AnchorLink></li>
                         <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>

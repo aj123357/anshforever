@@ -25,17 +25,16 @@ const Header = () => {
                                  
                                     </li>
                                     <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
-                                    <li><AnchorLink href='#story'>Story</AnchorLink></li>
                                     <li><AnchorLink href='#people'>People</AnchorLink></li>
                                     <li><AnchorLink href='#event'>Events</AnchorLink></li>
                                     <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
                                     <li><AnchorLink href='#rsvp'>Rsvp</AnchorLink></li>
-                                    <li><Link to='#'>Blog +</Link>
+                                    {/* <li><Link to='#'>Blog +</Link>
                                         <ul className="submenu submenu2">
                                             <li><Link to='/blog'>Blog</Link></li>
                                             <li><Link to='/Blog-details'>Blog Details</Link></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>

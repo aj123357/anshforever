@@ -26,7 +26,7 @@ const People = (props) => {
 
         <div id="people" className="person-area section-padding pb-70">
             <div className="container">
-                <Sectiontitle section={'Groomsmen & Bridesmaid'}/>
+                <Sectiontitle section={'Ladkewale & Ladkiwale'}/>
                 <div className="person-area-menu">
                     <div className="person-btn">
                         <Nav tabs>
@@ -35,7 +35,7 @@ const People = (props) => {
                                 className={classnames({ active: activeTab === '1' })}
                                 onClick={() => { toggle('1'); }}
                             >
-                                Groomsman
+                                LadkeWale
                             </NavLink>
                             </NavItem>
                             <NavItem>
@@ -43,7 +43,7 @@ const People = (props) => {
                                 className={classnames({ active: activeTab === '2' })}
                                 onClick={() => { toggle('2'); }}
                             >
-                                Bridemaids
+                                LadkiWale
                             </NavLink>
                             </NavItem>
                         </Nav>
@@ -56,17 +56,10 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride1} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
+                                                <h3>A</h3>
+                                                <span>A</span>
                                             </div>
                                         </div>
                                     </div>
@@ -74,17 +67,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride2} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                            
                                             </div>
                                             <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
+                                                <h3>B</h3>
+                                                <span>B</span>
                                             </div>
                                         </div>
                                     </div>
@@ -92,17 +79,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride3} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                            
                                             </div>
                                             <div className="person-content">
-                                                <h3>Lily Brown</h3>
-                                                <span>Sister</span>
+                                                <h3>C</h3>
+                                                <span>C</span>
                                             </div>
                                         </div>
                                     </div>
@@ -110,17 +91,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride4} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                               
                                             </div>
                                             <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
+                                                <h3>D</h3>
+                                                <span>D</span>
                                             </div>
                                         </div>
                                     </div>
@@ -128,17 +103,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride5} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                               
                                             </div>
                                             <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
+                                                <h3>E</h3>
+                                                <span>E</span>
                                             </div>
                                         </div>
                                     </div>
@@ -146,17 +115,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride6} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                             
                                             </div>
                                             <div className="person-content">
-                                                <h3>Lily Brown</h3>
-                                                <span>Sister</span>
+                                                <h3>F</h3>
+                                                <span>F</span>
                                             </div>
                                         </div>
                                     </div>
@@ -170,17 +133,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride5} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                               
                                             </div>
                                             <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
+                                                <h3>G</h3>
+                                                <span>G</span>
                                             </div>
                                         </div>
                                     </div>
@@ -188,17 +145,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride6} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                           
                                             </div>
                                             <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
+                                                <h3>H</h3>
+                                                <span>H</span>
                                             </div>
                                         </div>
                                     </div>
@@ -206,17 +157,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride7} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                            
                                             </div>
                                             <div className="person-content">
-                                                <h3>Lily Brown</h3>
-                                                <span>Sister</span>
+                                                <h3>I</h3>
+                                                <span>I</span>
                                             </div>
                                         </div>
                                     </div>
@@ -224,17 +169,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride8} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                            
                                             </div>
                                             <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
+                                                <h3>J</h3>
+                                                <span>J</span>
                                             </div>
                                         </div>
                                     </div>
@@ -242,17 +181,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride9} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                          
                                             </div>
                                             <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
+                                                <h3>R</h3>
+                                                <span>R</span>
                                             </div>
                                         </div>
                                     </div>
@@ -260,17 +193,11 @@ const People = (props) => {
                                         <div className="person-wrap">
                                             <div className="person-img">
                                                 <img src={bride10} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fa fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
-                                                        <li><Link to="/"><i className="fa fa-skype"></i></Link></li>
-                                                    </ul>
-                                                </div>
+                                            
                                             </div>
                                             <div className="person-content">
-                                                <h3>Lily Brown</h3>
-                                                <span>Sister</span>
+                                                <h3>K</h3>
+                                                <span>K</span>
                                             </div>
                                         </div>
                                     </div>

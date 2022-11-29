@@ -85,7 +85,6 @@ class Rsvp extends Component {
                                 <div className="col-12">
                                     <div className="section-title section-title4 text-center">
                                         <h2>Be Our Guest</h2>
-                                        <p>Please reserve before December 15th, 2018.</p>
                                     </div>
                                 </div>
                                 <form onSubmit={this.subimtHandler}>
@@ -124,7 +123,7 @@ class Rsvp extends Component {
                                             </div>
                                         </div>
                                         <div className="col-12 text-center">
-                                            <button id="submit" type="submit" className="submit">Send Invitation</button>
+                                            <button id="submit" type="submit" className="submit">Send Confirmation</button>
                                         </div>
                                     </div>
                                 </form>

@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Homepage from '../HomePage'
-import Homepage4 from '../HomePage4'
 import BlogPage from '../blogpage'
 import BlogDetailsPage from '../BlogDetailsPage'
 import Footer from '../../components/footer'
@@ -17,7 +16,6 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={Homepage} />
             <Route path='/home' component={Homepage} />
-            <Route path='/home4' component={Homepage4} />
             <Route path='/Blog' component={BlogPage} />
             <Route path='/Blog-details' component={BlogDetailsPage} />
           </Switch>

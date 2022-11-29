@@ -3,7 +3,6 @@ import ReactFancyBox from 'react-fancybox'
 import 'react-fancybox/lib/fancybox.css'
 import Sectiontitle from '../section-title'
 import './style.css'
-
 import galimg1 from '../../images/gal/1.jpg'
 import galimg2 from '../../images/gal/6.jpg'
 import galimg3 from '../../images/gal/3.jpg'
